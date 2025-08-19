@@ -1,0 +1,52 @@
+.LOGIN{
+    text-align: center; /*align text in login class*/
+    font-weight: bold; 
+    
+}
+
+section img{
+    height: 300px;
+    width: 300px;
+}
+/*used to change the image size inside the section tag*/
+
+section table a{
+    text-decoration: none;/*used to remove the link (unerline)*/
+    color: darkblue;/*used to change the link color*/
+}
+
+section table td{
+    text-align: left;/*used to align the texts inside the <td> tag*/
+    padding: 20px;
+}
+
+table tr td button{
+    background-color: white;
+    width: 300px;
+    height: 30px;
+}
+
+h3{
+    text-align: center;
+    background-color: skyblue;
+    padding: 2%;
+    
+}
+
+p{
+    text-align: center;
+    font-size: x-large;
+}
+
+input{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+}
+
+footer{
+    background-color: skyblue;
+    padding: 1%;
+}

@@ -1,0 +1,1 @@
+function msg() {alert("Your order is confirmed");}

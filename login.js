@@ -1,0 +1,1 @@
+function msg() {alert("You've been logged");}

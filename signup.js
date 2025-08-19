@@ -1,0 +1,1 @@
+function msg() {alert("Thank you for signing in")}

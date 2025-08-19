@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(59, 57, 57);
+}
+
+header {
+    background: skyblue;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.about img {
+    max-width: 150px;
+    margin-right: 2rem;
+}
+
+.about p {
+    max-width: 600px;
+}
+
+footer {
+    background: skyblue;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: x-large;
+    color: silver;
+}
+h3{
+    color: #0000FF;
+}
+
+/* CSS for FAQ*/
+
+  
+  .faq-container {
+    width: 50%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .faq {
+    margin-bottom: 10px;
+  }
+  
+  .faq-question {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faq-question:hover {
+    background-color: #0056b3;
+  }
+  
+  .faq-answer {
+    padding: 15px;
+    background-color: #f1f1f1;
+    display: none;
+    border-left: 4px solid #007BFF;
+    border-radius: 0 0 4px 4px;
+  }
+  
+  .faq-answer p {
+    margin: 0;
+    color: #555;
+  }

@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.cart {
+    padding: 2rem;
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart table, .cart th, .cart td {
+    border: 1px solid #ddd;
+}
+
+.cart th, .cart td {
+    padding: 1rem;
+    text-align: left;
+}
+
+.cart-total {
+    margin-top: 2rem;
+    text-align: right;
+}
+
+.cart-total h3 {
+    margin-top: 0;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f7f;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
